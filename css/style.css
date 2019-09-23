@@ -45,13 +45,13 @@ th,td{
 }
 
 .rowhead{
-    text-align:center; text-transform:uppercase; border-bottom: 2px solid black;
+    text-align:center; text-transform:uppercase;
 }
 
-th:first-child{
+.colhead:first-child{
     border-top-left-radius: 10px;
 }
-th:last-child{
+.colhead:last-child{
     border-top-right-radius: 10px;
 }
 
